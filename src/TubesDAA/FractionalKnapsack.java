@@ -8,7 +8,10 @@ package TubesDAA;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-
+//L M AGUNG B BANYU GARMADA 1301154271
+//MANAN NURUL AZIZ SYAEHONI 1301154173
+//NOPITA PRATIWI PATMAWATI  1301152636
+//VEBBY CLARISSA            1301150439
 
 
 public class FractionalKnapsack {
@@ -140,7 +143,7 @@ public class FractionalKnapsack {
             weights3[i]=weights[i];
         }
         
-        fungsi f = new fungsi();//membuat object fungsi
+        //fungsi f = new fungsi();//membuat object fungsi
         
         double[] optimal=getOptimalValue(capacity, values1, weights1);//memanggil fungsi optimal untuk mengetahui jumlah barang yang dibawa berdasarkan density
         double[] byWeight=getBestByWeight(capacity, values2, weights2);//memanggil fungsi bestbyweight untuk mengetahui jumlah barang yang dibawa berdasarkan weight
